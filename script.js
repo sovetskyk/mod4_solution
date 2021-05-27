@@ -42,8 +42,8 @@ const byeSpeaker = {
       document.write(byeSpeaker.speak(name) + "<br>");
       console.log(byeSpeaker.speak(name) + "<br>");
     } else {
-      document.write(helloSpeaker.speak(name) + "<br>");
-      console.log(helloSpeaker.speak(name) + "<br>");
+      document.write(helloSpeaker.speak(name));
+      console.log(helloSpeaker.speak(name));
     }
   }
 })();
