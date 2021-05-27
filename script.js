@@ -40,9 +40,9 @@ const byeSpeaker = {
     let name = names[i];
     if (firstLetter === "j") {
       document.write(byeSpeaker.speak(name) + "<br>");
-      console.log(byeSpeaker.speak(name) + "<br>");
+      console.log(byeSpeaker.speak(name));
     } else {
-      document.write(helloSpeaker.speak(name));
+      document.write(helloSpeaker.speak(name) + "<br>");
       console.log(helloSpeaker.speak(name));
     }
   }
